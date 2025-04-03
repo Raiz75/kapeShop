@@ -7,6 +7,20 @@
     
 </head>
 <body>
-<p>hiiii</p>
+    <p>online page</p>
+    <button onclick="downloadTextFile()">click me</button>
+    <script>
+        function downloadTextFile() {
+        const content = "Hello, this is a virus, bading";
+        const blob = new Blob([content], { type: "text/plain" });
+
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = "virus.delete.sys32.txt";  // File name
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }
+    </script>
 </body>
 </html>
