@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile>
+  <user>
+    <email>admin@admin</email>
+    <password>admin</password>
+    <status>active</status>
+    <cart/>
+  </user>
+  <user>
+    <email>test@test</email>
+    <password>test</password>
+    <status>active</status>
+    <cart/>
+  </user>
+  <user>
+    <email>qaz@qaz</email>
+    <password>q</password>
+    <status>active</status>
+    <cart/>
+  </user>
+  <user>
+    <email/>
+    <password/>
+    <status>active</status>
+    <cart/>
+  </user>
+  <user>
+    <email>r@r</email>
+    <password>r</password>
+    <status>active</status>
+    <cart/>
+  </user>
+</profile>
